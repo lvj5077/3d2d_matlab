@@ -9,10 +9,10 @@ info2 = zeros(detailNum,trailNum,4);
 info3 = zeros(detailNum,trailNum,4);
 addpath('/Users/jin/Q_Mac/mexopencv');
 ratio = linspace(0.2,1,10);
-imageNoises = linspace(0.2,1,detailNum); % pixel
+imageNoises = linspace(0.2,2,detailNum); % pixel
 depthNoise = 1/100; % cm
 for jj = 1:detailNum
-%     jj
+    jj
     imageNoise = imageNoises(jj);
     for i = 1:trailNum
 %         i
